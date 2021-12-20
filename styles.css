@@ -1,4 +1,14 @@
-.a,.b{list-style-type: none;float: left;}
-.izg {
-    clear: both;
+.a,.b, dl{list-style-type: none;float: left;margin:10px;padding-top: 0%;}
+.izg,.dp {
+    clear: both;padding-top: 10px;
 }
+h2 {color: crimson;
+
+}
+.dp{
+    position: relative;
+}
+.d{float: left;
+
+}
+.e{position: absolute;}
