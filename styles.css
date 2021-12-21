@@ -45,14 +45,14 @@ table{
 tr:hover {background-color: rgba(90, 0, 18, 0.384);}
 .es{
     border-radius: 8px;
-    position: absolute;right: 1%;width: 280px;
+    position: absolute;right: 1%;width: 220px;
     border-style: solid; color: lightslategrey; 
 }
 .eleja{
     border-radius: 8px;
-    position: absolute;right: 18%;
+    position: absolute;right: 16%;
     border-style: solid; color: lightslategrey; 
-    width: 280px;
+    width: 220px;
 }
 
   
