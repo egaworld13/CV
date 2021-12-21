@@ -1,0 +1,101 @@
+* {
+    margin: 10; 
+    padding: 2;}
+body{
+    background-image:url("./img/bkg.png");
+    background-attachment: fixed;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-family:Eczar;
+    font-style:oblique;
+    letter-spacing: 1px;
+    line-height: 30px;
+    
+}
+h1{
+    /* display: flex;
+    justify-content: center; color: rgba(0, 0, 0, 0.856);
+    font-family:Francois One; */
+        display: flex;
+        justify-content: center;
+        font-weight: 200;
+        text-transform: uppercase;
+        color: #3d3c3cdc;
+        font-style: italic;
+        font-family:Francois One;
+        font-size: 58px;
+        line-height: 54px;
+        text-shadow: 2px 5px 0 rgba(0, 0, 0, 0.171);
+}
+h2 {color: rgba(136, 11, 36, 0.856);
+    font-family:Francois One;
+    clear: both;
+    margin-left: 2%;
+}
+.a,.b,.d{list-style-type: none;float: left;}
+.a,.pd.izg,.dp,.val,.cp,.int {
+    clear: both;
+    margin-left: 2%;
+}
+
+.val{
+    width:20%;
+}
+.stat{
+    height: 30px;background-color: rgba(8, 8, 8, 0.158);
+    border-radius: 5px;
+}
+.lat{ background-color: rgba(0, 160, 0, 0.658);
+    height: 30px; width: 85%;border-radius: 5px;
+    padding-left: 10px;
+}
+.rus{ background-color: rgba(91, 160, 0, 0.658);
+    height: 30px; width: 60%;border-radius: 5px;
+    padding-left: 10px;
+}
+.eng { background-color: rgba(160, 149, 0, 0.658);
+    height: 30px; width: 40%;border-radius: 5px;
+    padding-left: 10px;
+}
+.cp ul{
+    list-style-type:square;
+    
+    
+}
+.list{
+    border:3px solid rgba(2, 2, 2, 0.575); border-radius: 5px;margin:30px;
+}
+.g{ column-width: 300px;padding: 5px;;
+}
+tr:hover {background-color: rgba(27, 27, 27, 0.445);}
+.es{
+    border-radius: 8px;
+    position: absolute;right: 1%;width: 220px;
+    border-style: solid; color: lightslategrey; 
+    
+}
+.eleja{
+    border-radius: 8px;
+    position: absolute;right: 16%;
+    border-style: solid; color: lightslategrey; 
+    width: 220px;
+}
+a:link, a:visited {
+    background-color: rgba(13, 4, 139, 0.247);
+    color: black;
+    border: 1px solid rgba(0, 0, 0, 0.377);border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 2% ;
+  }
+  
+  a:hover, a:active {
+    background-color: rgba(0, 128, 0, 0.404);
+    color: white;
+  }
+
+
+  
+  
