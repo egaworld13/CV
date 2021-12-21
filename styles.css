@@ -1,14 +1,59 @@
-.a,.b, dl{list-style-type: none;float: left;margin:10px;padding-top: 0%;}
-.izg,.dp {
-    clear: both;padding-top: 10px;
+body{
+    background-image:url("./img/bkg.jpg");
+    background-attachment: fixed;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-family: fantasy;
+    font-style:oblique;
+    letter-spacing: 1px;
+    line-height: 25px;
+    
 }
-h2 {color: crimson;
+h1{
+    display: flex;
+    justify-content: center; color: rgba(0, 0, 0, 0.856);
+}
+h2 {color: rgba(136, 11, 36, 0.856);
+}
+.a,.b,.d{list-style-type: none;float: left;}
+.izg,.dp,.val,.cp,.int {
+    clear: both;
+}
 
+.val{
+    width:20%;
 }
-.dp{
-    position: relative;
+.stat{
+    height: 25px;background-color: rgba(8, 8, 8, 0.158);
+    border-radius: 5px;
 }
-.d{float: left;
+.lat{ background-color: rgba(0, 160, 0, 0.658);
+    height: 25px; width: 85%;border-radius: 5px;
+}
+.rus{ background-color: rgba(91, 160, 0, 0.658);
+    height: 25px; width: 60%;border-radius: 5px;
+}
+.eng { background-color: rgba(160, 149, 0, 0.658);
+    height: 25px; width: 40%;border-radius: 5px;
+}
+.cp ul{
+    list-style-type:square;
+}
+table{
+    border:3px solid rgba(2, 2, 2, 0.575); border-radius: 5px;
+}
+tr:hover {background-color: rgba(90, 0, 18, 0.384);}
+img{
+    border-radius: 8px;
+    position: absolute;right: 1%;width: 310px;
+    border-style: solid; color: lightslategrey; 
+}
+.eleja{
+    border-radius: 8px;
+    position: absolute;right: 20%;
+    border-style: solid; color: lightslategrey; 
+    width: 310px;
+}
 
-}
-.e{position: absolute;}
+  
+  
