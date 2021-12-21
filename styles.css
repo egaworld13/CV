@@ -43,7 +43,7 @@ table{
     border:3px solid rgba(2, 2, 2, 0.575); border-radius: 5px;
 }
 tr:hover {background-color: rgba(90, 0, 18, 0.384);}
-img{
+.es{
     border-radius: 8px;
     position: absolute;right: 1%;width: 310px;
     border-style: solid; color: lightslategrey; 
